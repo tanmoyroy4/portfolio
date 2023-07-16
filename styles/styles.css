@@ -142,6 +142,7 @@ font-weight: 700;
 .resume-container {
     display: flex;
     gap: 50px;
+    
 }
 
 .resume-item-title {
@@ -197,4 +198,14 @@ textarea {
     background: #FFF;
     border: 0;
     width: 100%;
+}
+
+@media screen and (max-width:576px) {
+
+    .skills-container, .resume-container{
+        flex-direction: column;
+    }
+    #what-i-do{
+        padding: 30px;
+    }
 }
